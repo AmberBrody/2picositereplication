@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #2A2A2A;
+/*Color #2A2A2A is black*/
+  font-size: 14px;
+}
+
+/*NAVIGATION*/
+.navigation{
+  background-color: #262626;
+/*color #262626 is off-black*/
+  height: 80px;
+}
+
+.navigation .logo{
+  color: #fff;
+/*color #fff is white*/
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 15px;
+  padding: 15px 15px 15px 35px;
+}
+
+.navigation ul{
+  float: right;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 35px 15px 15px;
+  margin-top: 20px;
+}
+
+.navigation li{
+  display: inline-block;
+}
+
+.navigation li.active a{
+  color: #FF6760;
+/*color #FF6760 is red*/
+}
+
+.navigation a{
+  color: #D8D8D8;
+/*color is grey*/
+  margin-right: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*HEADER*/
+.header {
+  color: #D8D8D8;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.header h1{
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 65px;
+}
+
+.header h1 > span{
+/*This makes only whats inside the "span" bold*/
+    font-weight: bold;
+}
+
+.header h2{
+  font-size: 36px;
+  font-weight: 300;
+  margin-left: 25px 0;
+}
+
+.header h2 > span{
+    color: #EB615B;
+/*This changes the color to only what is inside the "Span" in the header h2 section*/
+}
+
+.header a{
+  background-color: #FF6760;
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+/*color is white*/
+  display: inline-block;
+  margin: 10px 0 75px 0;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*FEATURES*/
+.features{
+  background-color: #F6F6F6;
+/*color is light grey*/
+  color: #616161;
+/*color is faded black*/
+height: 450px;
+}
+
+.item{
+  float: left;
+  margin: 25px 0;
+  padding: 5px 0 20px 0;
+  text-align: center;
+  width: 33.3333333333%;
+}
+
+.item h3{
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.item p{
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/*FOOTER*/
+.footer{
+  color: #D8D8D8;
+  text-align: center;
+}
+
+.footer h4{
+  font-size: 24px;
+  margin: 50px 0 25px 0;
+}
+
+.footer p{
+  color: #858585;
+/*color is dark grey*/
+  font-size: 16px;
+  padding: 3px 0;
+}
+
+.footer p a{
+  color: #793F3D;
+}
+
+#socialIcons a{
+  color: #FFFFFF;
+}
+#socialIcons .fa-twitter{
+  background-color: #5DAED5;
+/*color is Twitter blue*/
+  border-radius: 50%;
+  padding: 5px;
+}
+#socialIcons .fa-facebook{
+  background-color: #4470CF;
+/*color is facebook blue*/
+  border-radius: 50%;
+  padding: 5px 8px;
+}
